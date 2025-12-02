@@ -1,0 +1,21 @@
+name: cv-classifier-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - pandas
+  - numpy
+  - scikit-learn
+  - nltk
+  - spacy
+  - matplotlib
+  - seaborn
+  - joblib
+  - tqdm
+  - pip
+  - pip:
+      - openpyxl       # si tu veux lire/exporter des fichiers Excel
+      - wordcloud      # pour visualisation des mots
